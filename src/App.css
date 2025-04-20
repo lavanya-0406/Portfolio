@@ -1,0 +1,397 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  z-index: 1000;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.sticky-navbar .tabs a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
+
+.sticky-navbar h2 {
+  margin: 0;
+}
+
+.sticky-navbar .tabs a:hover {
+  color: yellow; /* Hover effect */
+}
+
+.navbar {
+  .navbar {
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Adjust the background color if needed */
+    z-index: 1000; /* Ensures it stays on top of other content */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f4d7d7;
+  }
+  
+  .tabs a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .tabs a:hover {
+    color: #007bff;
+  }
+  
+  top: 0;
+  background-color: #fff; /* Adjust the background color if needed */
+  z-index: 1000; /* Ensures it stays on top of other content */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabs a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.tabs a:hover {
+  color: #007bff;
+}
+
+.navbar {
+  display: flex;
+  .navbar {
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Adjust the background color if needed */
+    z-index: 1000; /* Ensures it stays on top of other content */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tabs a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .tabs a:hover {
+    color: #007bff;
+  }
+  
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: linear-gradient(90deg, #808000,  
+
+#B8860B,
+  
+  #BDB76B,
+  
+  #FFDB58)
+
+}
+
+.navbar h2 {
+  margin: 0;
+  color: black;
+}
+
+.tabs a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.tabs a:hover {
+  color: #00c3ff;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 40ch; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  color: #333;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: yellow;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+.hero h3 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.hero p {
+  max-width: 600px;
+  line-height: 1.5;
+  color: white;
+}
+
+/* Heading (Optional) */
+h4 {
+  font-size: larger;
+  text-align: center;
+  margin-top: 9cm; /* Adjust or remove if not needed */
+}
+
+/* Icon & Text Row Above Skills */
+.icon-text-group {
+  display: flex;
+  flex-direction: column; /* or row if you want them side by side */
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  margin-left: 15cm ;
+  font-size: 25px;
+  
+}
+
+.icon-text .icon {
+  font-size: 1.2rem;
+  color: black;
+  margin-right: 10px;
+}
+
+.icon-text span {
+  font-weight: bold;
+  color:black;
+}
+
+/* Skills Section */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Align items to the center */
+  gap: 25px; /* Space between circles */
+  padding: 50px 0;
+  color: yellow, black;
+}
+.Python{
+  color: #00c3ff;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  text-align: center;
+}
+
+
+/* Circular Progress Bars */
+.circle {
+  width: 100px;
+  height: 100px;
+  transform: rotate(-90deg);
+  
+}
+
+.bg-circle {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 8;
+  color: #808000,black;
+}
+
+.progress-circle {
+  fill: none;
+  stroke: url(#gradient);
+  stroke-width: 8;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+
+svg text {
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  font-weight: bold;
+  fill: #333;
+}
+.education-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.education, .about-me {
+  flex: 1;
+  background-color: #0b0000;
+  
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.education-card, .about-me-card {
+  background-color: rgb(10, 1, 1);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  
+  text-align: center;
+}
+
+.education h4, .about-me h4 {
+  font-size: 28px;
+  color:yellow;
+  margin-bottom:10px;
+  text-decoration: underline;
+}
+
+.education p, .about-me p {
+  font-size: 16px;
+  color: white;
+  
+}
+
+@media (max-width: 768px) {
+  .education-container {
+    flex-direction: column;
+  }
+  .education, .about-me {
+    width: 100%;
+  }
+}
+
+
+/* Projects Section */
+.projects {
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.projects h4 {
+  font-size: 28px;
+  color: black;
+  text-decoration: underline;
+}
+
+.project-card {
+  background-color: black;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h5 {
+  font-size: 22px;
+  color: yellow;
+}
+
+.project-card p {
+  font-size: 16px;
+  color: #fedbd0;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #fedbd0;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Info */
+.contact-info {
+  text-align: center;
+  margin-top: 50px;
+  color: #821717;
+  padding-bottom: 50px;
+}
+
+/* Profile Image */
+.image-container {
+  position: absolute;
+  top: 4cm;
+  right: 10cm;
+  width: 150px;
+  height: 150px;
+}
+
+img {
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Ensure it's a perfect circle */
+  border-radius: 50%;
+  box-shadow: 8px 8px 8px rgba(244, 200, 4, 0.3);
+}
+
