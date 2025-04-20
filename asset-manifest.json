@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lavanya-0406/Portfolio.git/static/css/main.4b8bbfeb.css",
+    "main.js": "/lavanya-0406/Portfolio.git/static/js/main.7f4e669c.js",
+    "static/media/fa-solid-900.ttf": "/lavanya-0406/Portfolio.git/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/mypic.jpg": "/lavanya-0406/Portfolio.git/static/media/mypic.eaa1a000b3c0fd7b4412.jpg",
+    "static/media/fa-brands-400.ttf": "/lavanya-0406/Portfolio.git/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/lavanya-0406/Portfolio.git/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/lavanya-0406/Portfolio.git/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/lavanya-0406/Portfolio.git/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/fa-regular-400.woff2": "/lavanya-0406/Portfolio.git/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/lavanya-0406/Portfolio.git/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/lavanya-0406/Portfolio.git/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/lavanya-0406/Portfolio.git/index.html",
+    "main.4b8bbfeb.css.map": "/lavanya-0406/Portfolio.git/static/css/main.4b8bbfeb.css.map",
+    "main.7f4e669c.js.map": "/lavanya-0406/Portfolio.git/static/js/main.7f4e669c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b8bbfeb.css",
+    "static/js/main.7f4e669c.js"
+  ]
+}
